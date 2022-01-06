@@ -788,8 +788,8 @@ img{
   display: inline-block;
   overflow: hidden;
   margin: 0;
+  padding: 10px;
 }
-
 
 
 .img-fluid {

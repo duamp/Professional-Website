@@ -28,10 +28,17 @@
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav">
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Experience</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#Skills">Projects</a></li>
-                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#projects">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experience</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#Projects">Projects</a></li>
+                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contact</a></li>
+                     <br>
+                     <li class="side-bar-social-icons" > 
+                      <a class="social-icon" href="https://www.linkedin.com/in/matteo-pulcini-b18233204/"><i class="fab fa-linkedin-in"></i></a>
+                      <a class="social-icon" href="https://github.com/duamp"><i class="fab fa-github"></i></a>
+                      <a class="social-icon" href="assets/pdf/Resume.png"><i class="fas fa-file-pdf"></i></a>
+                    </li>
                 </ul>
+                
             </div>
         </nav>
         <!-- Page Content-->
@@ -69,28 +76,29 @@
             </section>
             <hr class="m-0" />
                 <!-- Experience -->
-                <section class="resume-section" id="education">
+                <section class="resume-section" id="experience">
                 <div class="resume-section-content">
                     <h2 class="mb-5">Experience</h2>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Tutor</h3>
-                            <div class="subheading mb-3">Hatch Coding</div>
+                      <div id="primary">
+                        <h3 class="mb-0">Tutor</h3>
+                        <div class="subheading mb-3">Hatch Coding
                         </div>
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Research Assistant</h3>
-                            <div class="subheading mb-3">York University</div>
-                        </div>
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Week Zero Executive</h3>
-                            <div class="subheading mb-3">York University</div>
-                        </div>
+                    </div>
+                    
+                    <div id="content">
+                        <h3 class="mb-0">Research Assistant</h3>
+                        <div class="subheading mb-3">York University</div>
+                    </div>
+                    <div id="secondary">
+                        <h3 class="mb-0">Week Zero Executive</h3>
+                        <div class="subheading mb-3">York University</div>
                     </div>
                 </div>
             </section>
         <hr class="m-0" />
             <!-- Projects-->
-            <section class="resume-section" id="Skills">
+            <section class="resume-section" id="Projects">
                 <div>
                     
                 </div>
@@ -119,7 +127,7 @@
                             <div class="row">
                               <div class="col-md-6">
                                 <div class="left-image">
-                                  <img src="assets/img/Hatch (1).jpg" alt="" />
+                                  <img src="assets/img/chatApp.png" width = "500" height= "280" border = "5px solid #555"/>
                                 </div>
                               </div>
                               <div class="col-md-6">
@@ -152,7 +160,7 @@
                               </div>
                               <div class="col-md-6">
                                 <div class="right-image">
-                                    <img src="assets/img/Hatch (1).jpg" alt="" />
+                                    <img src="assets/img/ (Hatch1).jpg" alt="" />
                                 </div>
                               </div>
                             </div>
@@ -164,14 +172,17 @@
                           <div class="row">
                             <div class="col-md-6">
                               <div class="left-image">
-                                <img src="assets/img/Hatch (1).jpg" alt="" />
+                                <img src="assets/img/GUI.png" width = "500" height= "280" border = "5px solid #555" alt="" />
+                                <br> Console Output: <br>
+                                <img src="assets/img/GUIConsole.png" width = "500" height= "120" border = "5px solid #555" alt="" />
+
                               </div>
                             </div>
                             <div class="col-md-6">
                               <div class="right-text">
                                 <h4>Real Time File Decypted</h4>
                                 <p>
-                                  This application allows a user to insert a encyrpted file with a message in a GUI, which then spits out the true message!
+                                  This application allows a user to insert an encrypted file with a message in a GUI, which then spits out the true message! The file in this case SingleStream.txt can be modified after the program begins reading to act as if it were decrypting real-time messages, as it is impossible to send a message instantaneously.
                                 </p>
                                 <div class="white-button">
                                   <a href="https://github.com/duamp/Decrypt_Files_RealTime">View on Github</a>
